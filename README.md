@@ -1,6 +1,6 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name:Manikandan S </h3>
-<h3>Register Number:  212224060146   </h3>
+<h3>Name:MANIKANDAN S </h3>
+<h3>Register Number: 212224060146
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -72,9 +72,8 @@ F H <BR>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-<hr>
+<h3>PROGRAM</h3>
 
-## Program :
 ```
 #import defaultdict
 from collections import defaultdict
@@ -99,8 +98,9 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
-## Output:
-<img width="540" height="528" alt="image" src="https://github.com/user-attachments/assets/a6ed8ac8-7905-474e-b2a4-fd4d7ed23af0" />
+<h3>OUTPUT</h3>
+<img width="953" height="249" alt="image" src="https://github.com/user-attachments/assets/d274c766-9f78-4b06-97b4-e6d063774a49" />
+<hr>
 
 <hr>
 <h3>Sample Input</h3>
@@ -115,10 +115,8 @@ print(traversedpath)
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
+<h3>PROGRAM</h3>
 
-<hr>
-
-## Program :
 ```
 #import defaultdict
 from collections import defaultdict
@@ -142,12 +140,12 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
+
 ```
+<h3>Output</h3>
+<img width="632" height="160" alt="image" src="https://github.com/user-attachments/assets/51ca9b6f-b6a2-43da-aff2-af495a30dd8c" />
 
-## Output:
-
-<img width="433" height="381" alt="image" src="https://github.com/user-attachments/assets/23d4c8c5-5b6e-447d-a2d9-0aa00c1b072d" />
-
+<hr>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
